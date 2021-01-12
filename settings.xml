@@ -1,0 +1,7 @@
+<servers>
+    <server>
+        <id>flyway-db</id>
+        <username>flyway</username>
+        <password>mySecretPassword</password>
+    </server>
+</servers>
