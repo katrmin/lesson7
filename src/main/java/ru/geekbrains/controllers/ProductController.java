@@ -32,7 +32,7 @@ public class ProductController {
         return productRepository.save(product);
     }
 
-    @GetMapping("/delete/{id} ")
+    @GetMapping("/delete/{id}")
     public void delete(@PathVariable Long id) {
         productRepository.deleteById(id);
     }
